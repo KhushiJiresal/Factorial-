@@ -1,4 +1,4 @@
-Factorial
+#Factorial
 
 DevOps Project - CICD pipeline implementation using AWS EC2 instance and thereby using jenkins, docker and github webhook!
 Commands on aws ec2 instance to install java, jenkins, docker and thus implementing pipeline and creation of docker image and docker container. Also docker image is then killed to build another docker image and container but by using jenkins and not by aws ec2 instance.
