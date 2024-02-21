@@ -1,5 +1,6 @@
 # Factorial-
 
+
 DevOps Project - CICD pipeline implementation using AWS EC2 instance and thereby using jenkins, docker and github webhook!
 Commands on aws ec2 instance to install java, jenkins, docker and thus implementing pipeline and creation of docker image and docker container. Also docker image is then killed to build another docker image and container but by using jenkins and not by aws ec2 instance.
 1  clear 
@@ -40,7 +41,7 @@ Commands on aws ec2 instance to install java, jenkins, docker and thus implement
 36  docker build . -t number
 37  docker run -d --name number -p 8000:8000 number
 38  docker ps
-39  docker kill 1d6c50b60f37
+39  docker kill 1d6c50b60f39
 40  history
 41  sudo chmod 777 /var/lib/jenkins/workspace/Pipeline
 42  sudo usermod -a -G docker jenkins
@@ -65,5 +66,7 @@ No releases published
 Packages 
 No packages published 
 Languages
+
+
 
 
